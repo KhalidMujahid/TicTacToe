@@ -1,1 +1,1 @@
-# Tictactoe-js
+#Tictactoe game writting in javaScript

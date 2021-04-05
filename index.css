@@ -1,0 +1,66 @@
+div{
+  display: grid;
+  padding: 1em;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1px;
+  padding: 1em;
+  outline: none;
+}
+
+.text{
+   background-color: rgba(0,0,0,0.3);
+   margin-top: 0em;
+   display: flex;
+   justify-content: center;
+}
+
+p{
+  color: rgba(255,255,255,1);
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: Arial;
+  text-shadow: 0.1em 0.1em 0.1em rgba(255,255,255,1);
+}
+
+.btn{
+   border: 0.1em solid #fff;
+}
+
+.red{
+   color: red;
+   font-size: 2em;
+   text-shadow: 0.1em 0.1em 0.1em #a00;
+   font-family: Arial;
+}
+
+.blue{
+  color: blue;
+  font-size: auto;
+}
+
+.reds{
+  color: red;
+  font-size: auto;
+}
+
+button{
+  height: 8em;
+  width: 8em;
+  background-color: #fff;
+  border: 0.2em solid #000;
+  margin: 0px;
+}
+
+.wins{
+   background-color: green;
+}
+
+.add{
+  box-shadow: 0.1em 0.1em 0.1em #a00;
+}
+
+
